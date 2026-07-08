@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Las funciones del lenguaje de Roman Jakobson explicadas de forma interactiva y aplicadas al desarrollo de software.">
+  <meta name="author" content="Emanuel Ocampo Tobón">
+  <title>Funciones del Lenguaje | ADSO.Asertivo</title>
+
+  <!-- Google Fonts (Outfit & Plus Jakarta Sans) -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Custom Premium Styles -->
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       NAVBAR
+       ========================================================================== -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar" id="main-nav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <i class="bi bi-chat-left-text-fill text-primary"></i> ADSO.Asertivo
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tipos-comunicacion.html">Tipos & Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="funciones-lenguaje.html">Funciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comunicacion-no-verbal.html">No Verbal</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <header class="hero-section d-flex align-items-center" style="background: radial-gradient(circle at 90% 80%, rgba(16,185,129,0.06) 0%, rgba(0,0,0,0) 50%);">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <span class="badge-tech" style="background: rgba(16,185,129,0.08); border-color: rgba(16,185,129,0.25); color: #34d399;">Jakobson & Intención</span>
+          <h1 class="hero-title">
+            Las Funciones del Lenguaje en la <span>Ingeniería</span>
+          </h1>
+          <p class="hero-subtitle">
+            Toda comunicación tiene una intención. Comprender el modelo de Roman Jakobson nos ayuda a estructurar mensajes claros, evitando malentendidos técnicos al escribir requerimientos o dar soporte.
+          </p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#interactive-diagram-section" class="btn-premium" style="background: var(--gradient-success); box-shadow: 0 4px 20px rgba(16,185,129,0.3);">Explorar Diagrama <i class="bi bi-cpu"></i></a>
+            <a href="#funciones-detalle" class="btn-outline-premium">Ver las 6 Funciones</a>
+          </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block text-center">
+          <div class="glass-card p-5" style="border-color: rgba(16,185,129,0.15);">
+            <i class="bi bi-diagram-3 display-2 text-success mb-3 d-block"></i>
+            <span class="fs-5 fw-bold text-white d-block mb-1">Codificación Eficiente</span>
+            <span class="text-secondary small">Modelo de comunicación estructurada</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       INTERACTIVE DIAGRAM SECTION
+       ========================================================================== -->
+  <section id="interactive-diagram-section" class="section-padding border-top border-secondary border-opacity-10">
+    <div class="container">
+      <div class="text-center">
+        <span class="text-primary fw-bold text-uppercase tracking-wider">Esquema Dinámico</span>
+        <h2 class="section-title">El Modelo de Jakobson <span>Interactivo</span></h2>
+        <p class="section-subtitle">
+          Haz clic en cualquiera de los componentes del proceso de comunicación para ver su correspondiente función del lenguaje y un ejemplo aplicado al software.
+        </p>
+      </div>
+
+      <!-- Interactive Grid Layout -->
+      <div class="jakobson-grid">
+        <!-- Contexto -->
+        <div class="jakobson-box grid-col-2 grid-center" data-type="contexto">
+          <div>
+            <h4>CONTEXTO</h4>
+            <span>F. Referencial</span>
+          </div>
+        </div>
+        
+        <!-- Mensaje (Placed in center usually) -->
+        <div class="jakobson-box" data-type="mensaje">
+          <h4>MENSAJE</h4>
+          <span>F. Poética</span>
+        </div>
+
+        <!-- Emisor -->
+        <div class="jakobson-box" data-type="emisor">
+          <h4>EMISOR</h4>
+          <span>F. Emotiva</span>
+        </div>
+
+        <!-- Canal -->
+        <div class="jakobson-box" data-type="canal">
+          <h4>CANAL</h4>
+          <span>F. Fática</span>
+        </div>
+
+        <!-- Receptor -->
+        <div class="jakobson-box" data-type="receptor">
+          <h4>RECEPTOR</h4>
+          <span>F. Apelativa</span>
+        </div>
+
+        <!-- Código -->
+        <div class="jakobson-box grid-col-3 text-center" data-type="codigo">
+          <h4>CÓDIGO</h4>
+          <span>F. Metalingüística</span>
+        </div>
+      </div>
+
+      <!-- Explanatory Panel populated by diagram.js -->
+      <div class="jakobson-explain-panel" id="jakobson-explain">
+        <!-- Default content loaded via script -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       DETALLE DE LAS 6 FUNCIONES
+       ========================================================================== -->
+  <section id="funciones-detalle" class="section-padding bg-dark bg-opacity-25 border-top border-secondary border-opacity-10">
+    <div class="container">
+      <div class="text-center">
+        <span class="text-primary fw-bold text-uppercase tracking-wider">Teoría Aplicada</span>
+        <h2 class="section-title">Las 6 Funciones del Lenguaje</h2>
+        <p class="section-subtitle">
+          Cada una de las funciones identificadas por Jakobson cumple un papel fundamental en nuestras interacciones diarias.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Referencial -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card">
+            <h3 class="h5 text-white mb-3"><i class="bi bi-globe text-warning me-2"></i>Referencial</h3>
+            <p class="text-secondary small">
+              Centrada en transmitir información objetiva y lógica sobre el entorno. Indispensable al redactar reportes de bugs, manuales técnicos e historiales de cambios.
+            </p>
+          </div>
+        </div>
+        <!-- Emotiva -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card">
+            <h3 class="h5 text-white mb-3"><i class="bi bi-emoji-smile text-violet me-2" style="color: var(--accent-violet);"></i>Emotiva</h3>
+            <p class="text-secondary small">
+              Centrada en expresar los sentimientos, estados de ánimo y emociones del emisor. Ayuda a canalizar el estrés y comunicar estados de fatiga o desmotivación a los líderes.
+            </p>
+          </div>
+        </div>
+        <!-- Apelativa -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card">
+            <h3 class="h5 text-white mb-3"><i class="bi bi-megaphone text-rose me-2" style="color: var(--accent-rose);"></i>Apelativa</h3>
+            <p class="text-secondary small">
+              Centrada en influir en las acciones del receptor. Vital para solicitar revisiones de código (Pull Requests), delegar tareas y persuadir a los clientes en negociaciones.
+            </p>
+          </div>
+        </div>
+        <!-- Poética -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card">
+            <h3 class="h5 text-white mb-3"><i class="bi bi-pen text-cyan me-2" style="color: var(--accent-cyan);"></i>Poética</h3>
+            <p class="text-secondary small">
+              Centrada en la estética del mensaje. En tecnología, se aplica al diseño visual limpio, la escritura elegante de comentarios de código y lemas publicitarios para productos de software.
+            </p>
+          </div>
+        </div>
+        <!-- Fática -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card">
+            <h3 class="h5 text-white mb-3"><i class="bi bi-broadcast text-emerald me-2" style="color: var(--accent-emerald);"></i>Fática</h3>
+            <p class="text-secondary small">
+              Centrada en validar el canal de comunicación. Se manifiesta en saludos rápidos, confirmaciones de lectura, o pruebas técnicas de audio y video antes de una videollamada.
+            </p>
+          </div>
+        </div>
+        <!-- Metalingüística -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card">
+            <h3 class="h5 text-white mb-3"><i class="bi bi-code-square text-pink me-2" style="color: #ec4899;"></i>Metalingüística</h3>
+            <p class="text-secondary small">
+              Centrada en hablar sobre el propio código o idioma. Clave en capacitaciones técnicas, especificación de lenguajes de programación y definición de términos de negocio en bases de datos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PORTAFOLIO DE EVIDENCIAS
+       ========================================================================== -->
+  <section id="evidencias" class="section-padding border-top border-secondary border-opacity-10">
+    <div class="container">
+      <div class="text-center">
+        <span class="text-primary fw-bold text-uppercase tracking-wider">Entregables</span>
+        <h2 class="section-title">Evidencias: Funciones del <span>Lenguaje</span></h2>
+        <p class="section-subtitle">
+          Muestra de diapositivas y exposiciones del modelo de comunicación de Roman Jakobson.
+        </p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <!-- Evidencia 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="evidence-premium-card">
+            <div class="evidence-visual-preview">
+              <i class="bi bi-file-earmark-slides"></i>
+            </div>
+            <div class="evidence-content">
+              <span class="badge bg-secondary bg-opacity-25 text-white-50 mb-2">Presentación</span>
+              <h4 class="text-white">Diapositivas de Jakobson</h4>
+              <p class="text-secondary small mb-3">
+                Exposición completa detallando las funciones del lenguaje y su aplicación práctica en la documentación de proyectos informáticos.
+              </p>
+              <a href="documentos/presentacion-jakobson.pdf" target="_blank" class="btn-outline-premium w-100 text-center d-block py-2 mt-2">
+                <i class="bi bi-file-earmark-pdf-fill me-1"></i> Ver Presentación PDF
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="custom-footer">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+          <span class="footer-brand">ADSO.Asertivo</span>
+          <p class="small mb-0">
+            Plataforma interactiva desarrollada con HTML5, CSS3 personalizado y Vanilla Javascript.<br>
+            Entregable individual de la competencia de Comunicación - SENA.
+          </p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <div class="d-flex justify-content-center justify-content-md-end gap-3 mb-3">
+            <a href="https://github.com/ocampotobonemanuel5-SVG" target="_blank" class="social-circle-btn" title="GitHub de Emanuel Ocampo">
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+          <p class="small mb-0">
+            &copy; 2026 Emanuel Ocampo Tobón. Todos los derechos reservados.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS logic -->
+  <script src="js/main.js"></script>
+  <script src="js/diagram.js"></script>
+</body>
+</html>
